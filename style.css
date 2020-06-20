@@ -1,0 +1,139 @@
+/* Les paramètres généraux */
+
+body 
+{
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px;
+    padding-left: 0px; padding-right: 0px; padding-top: 0px; padding-bottom: 0px;
+    color: #404040;
+}
+.conteneur
+{
+    display: flex;
+}
+
+a
+{
+    color: #404040;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* La partie gauche de la page */
+
+.partie-gauche
+{
+    background-color: #feca07;
+    width: 300px;
+    min-height: 1200px;
+    height: 100%;
+}
+.partie-gauche > header > div
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.partie-gauche > section > h1
+{
+    padding: 0px;
+    text-align: center;
+    background-color: #404040;
+    color: #feca07;;
+    width: 100%;
+}
+
+.partie-gauche > section > p, .contact-section > div
+{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.img-div
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-div > img
+{
+    border-radius: 50px;
+    border: solid 1px #404040;
+}
+
+
+/*Et la partie droite*/
+
+.partie-droite
+{
+    background-color: white;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.titre
+{
+    font-size: 45px;
+    font-family: Verdana;
+    font-weight: lighter;
+}
+
+.mettre-en-jaune
+{
+    font-size: 45px;
+    font-family: Verdana;
+    font-weight: lighter;
+    color: #feca07;
+}
+
+.attribut 
+{
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.attribut-exception
+{
+    text-decoration: underline;
+    text-decoration-color: #feca07;
+}
+
+.titre-section
+{
+    font-size: 30px;
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
+hr
+{
+    background-color: #feca07;
+    border: none;
+    height: 3px;
+    width: 100%;
+}
+
+.section-div
+{
+    display: flex;
+}
+
+.p-section
+{
+    width: 60%;
+    margin-left: 200px;
+}
+
+.nom-section
+{
+    font-size: large;
+    font-weight: bolder;
+}
+
