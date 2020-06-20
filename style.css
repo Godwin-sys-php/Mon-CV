@@ -38,7 +38,7 @@ a:hover
     padding-top: 10px;
 }
 
-.partie-gauche > section > h1
+.fond-gris
 {
     padding: 0px;
     text-align: center;
@@ -82,6 +82,11 @@ a:hover
     padding-right: 60px;
 }
 
+.partie-droite > header
+{
+    line-height: 150%;
+}
+
 .titre
 {
     font-size: 45px;
@@ -114,6 +119,7 @@ a:hover
     font-size: 30px;
     font-family: Verdana;
     font-weight: bolder;
+    display: inline;
 }
 
 hr
@@ -145,3 +151,18 @@ hr
 {
     font-weight: bolder;
 }
+
+/* Responsive */
+/*@media screen and (max-width: 640px)
+{
+    .conteneur
+    {
+        display: initial;
+    }
+    .partie-gauche
+    {
+        background-color: #feca07;
+        width: 100%;
+        height: 100%;
+    }
+}*/
