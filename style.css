@@ -123,12 +123,12 @@ hr
 .section-div
 {
     display: flex;
+    justify-content: space-between;
 }
 
 .p-section
 {
     width: 60%;
-    margin-left: 200px;
 }
 
 .nom-section
