@@ -24,25 +24,13 @@ a:hover
     text-decoration: underline;
 }
 
-i
-{
-    color: #feca07;
-}
-
 /* La partie gauche de la page */
-
-.contact-section > header
-{
-    height : 100%;
-    text-align: center; 
-    width: 100%;
-}
-
 
 .partie-gauche
 {
     background-color: #feca07;
-    width: 25%;
+    width: 300px;
+    height: 1350px;
 }
 .partie-gauche > header > div
 {
@@ -67,8 +55,7 @@ i
 
 .a-propos
 {
-    height: 120%;
-    padding: 5px;
+    height: 800px;
 }
 
 .img-div
@@ -93,6 +80,11 @@ i
     padding-top: 60px;
     padding-left: 50px;
     padding-right: 60px;
+}
+
+.partie-droite > header
+{
+    line-height: 150%;
 }
 
 .titre
@@ -144,21 +136,15 @@ hr
     justify-content: space-between;
 }
 
-.p-table
+.p-section
 {
-    width: 100%;
+    width: 60%;
 }
 
-.nom-table
+.nom-section
 {
     font-size: large;
     font-weight: bolder;
-}
-
-.description-table
-{
-    width: 20%;
-    vertical-align: top;
 }
 
 .mettre-en-gras
@@ -166,15 +152,17 @@ hr
     font-weight: bolder;
 }
 
-
-
-@media screen and (max-width: 640px)
+/* Responsive */
+/*@media screen and (max-width: 640px)
 {
-    .conteneur{
-        flex-direction: column;
+    .conteneur
+    {
+        display: initial;
     }
-    .partie-gauche{
+    .partie-gauche
+    {
+        background-color: #feca07;
         width: 100%;
-        min-width: 100%;
+        height: 100%;
     }
-}
+}*/
