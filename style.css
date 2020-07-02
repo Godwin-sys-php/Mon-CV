@@ -47,7 +47,7 @@ i
 .partie-gauche > header > div
 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 3%;
 }
 
 .fond-gris
@@ -61,14 +61,14 @@ i
 
 .partie-gauche > section > p, .contact-section > div
 {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 75%;
+    padding: 3%;
 }
 
 .a-propos
 {
     height: 120%;
-    padding: 5px;
+    padding: 10%;
 }
 
 .img-div
@@ -90,21 +90,20 @@ i
 {
     background-color: white;
     width: 100%;
-    padding-top: 60px;
-    padding-left: 50px;
-    padding-right: 60px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3.5%;
 }
 
-.titre
+h1
 {
-    font-size: 45px;
+    font-size: 275%;
     font-family: Verdana;
     font-weight: lighter;
 }
 
 .mettre-en-jaune
 {
-    font-size: 45px;
     font-family: Verdana;
     font-weight: lighter;
     color: #feca07;
@@ -112,8 +111,8 @@ i
 
 .attribut 
 {
-    margin-left: 5px;
-    font-size: 24px;
+    margin-left: 0.5%;
+    font-size: 160%;
     font-weight: 600;
 }
 .attribut-exception
@@ -124,7 +123,7 @@ i
 
 .titre-section
 {
-    font-size: 30px;
+    font-size: 150%;
     font-family: Verdana;
     font-weight: bolder;
     display: inline;
@@ -166,6 +165,19 @@ hr
     font-weight: bolder;
 }
 
+.ul-exception {
+    list-style-image: url("images/dot-circle-regular.svg");
+    color: black;
+}
+
+ul{
+    list-style-type: disc;
+    color: #feca07;
+}
+
+.texte-exception{
+    color: black;
+}
 
 
 @media screen and (max-width: 640px)
