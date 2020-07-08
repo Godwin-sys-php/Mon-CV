@@ -39,7 +39,8 @@ img{
     margin-top: 5%;
     width: 75%;
     border: none;
-    border-radius : 100%;
+    border-radius : 50%;
+    image-orientation: 0deg;
 }
 
 /* La partie gauche de la page */
