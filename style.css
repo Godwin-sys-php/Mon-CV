@@ -31,17 +31,13 @@ i
     padding-left: 1%;
 }
 
-#i-exception{
-    color: black;
-}
-
 img{
     margin-top: 5%;
     width: 75%;
     border: none;
     border-radius : 50%;
-    image-orientation: 0deg;
 }
+
 
 /* La partie gauche de la page */
 
@@ -93,6 +89,11 @@ img{
     display: flex;
     justify-content: space-between;
     padding-right: 1.5%;
+}
+
+.img-div > i
+{
+    color: black;
 }
 
 
