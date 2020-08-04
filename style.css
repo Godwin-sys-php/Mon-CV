@@ -36,6 +36,7 @@ img{
     width: 75%;
     border: none;
     border-radius : 50%;
+    image-orientation: from-image;
 }
 
 
